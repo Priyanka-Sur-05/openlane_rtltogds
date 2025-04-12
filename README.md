@@ -9,3 +9,11 @@ TOOLS USED:
   6. physical verification: magic and netgen
 
 pdk: 130nm pdk (sky130)
+// go to the openlane directory where src file, design file, config.tcl files exist.
+write command
+
+./flow.tcl -interactive
+//openlane launched.
+package require openlane 0.9
+prep -design picorv32a
+run_synthesis

@@ -12,7 +12,7 @@ pdk: 130nm pdk (sky130)
 // go to the openlane directory where src file, design file, config.tcl files exist.
 **write command**
 ./flow.tcl -interactive
-//__openlane launched.__
+>__openlane launched.__
 package require openlane 0.9
 prep -design picorv32a
 run_synthesis

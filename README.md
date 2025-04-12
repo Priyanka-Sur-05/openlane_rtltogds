@@ -10,6 +10,7 @@ TOOLS USED:
 
 pdk: 130nm pdk (sky130)
 // go to the openlane directory where src file, design file, config.tcl files exist.
+
 **write command**
 ```
 ./flow.tcl -interactive
@@ -20,3 +21,4 @@ package require openlane 0.9
 prep -design picorv32a
 run_synthesis
 ```
+![VirtualBox_vsdworkshop_12_04_2025_21_38_47](https://github.com/user-attachments/assets/26cc62ea-14a6-4d96-a8c3-f6b7cdb17193)

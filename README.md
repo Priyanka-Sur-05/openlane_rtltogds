@@ -13,6 +13,6 @@ pdk: 130nm pdk (sky130)
 **write command**
 ./flow.tcl -interactive
 >__openlane launched.__
-package require openlane 0.9
+```package require openlane 0.9
 prep -design picorv32a
-run_synthesis
+run_synthesis```

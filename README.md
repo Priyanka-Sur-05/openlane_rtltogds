@@ -7,4 +7,5 @@ TOOLS USED:
   4. floorplan placement CTS: openRoad
   5. logic equivalence check: yosys 
   6. physical verification: magic and netgen
+
 pdk: 130nm pdk (sky130)

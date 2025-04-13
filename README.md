@@ -29,3 +29,5 @@ no of dff/ no of cells= 1613/18036= 0.08943
 output file: picorv32a_synthesis.v
 
 ## DAY 2 ##
+
+![RUN_FLLORPLAN OUTPUT](https://github.com/user-attachments/assets/e99ab75d-74c0-4bdd-89df-c44fb6abcf8d)

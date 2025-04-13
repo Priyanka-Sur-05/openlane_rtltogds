@@ -22,6 +22,6 @@ prep -design picorv32a
 run_synthesis
 ```
 ![VirtualBox_vsdworkshop_12_04_2025_21_38_47](https://github.com/user-attachments/assets/26cc62ea-14a6-4d96-a8c3-f6b7cdb17193)
-###flop ratio ###
+### flop ratio ###
 no of dff/ no of cells= 1613/18036= 0.08943
 ![VirtualBox_vsdworkshop_13_04_2025_17_56_34](https://github.com/user-attachments/assets/554e4f79-e2e5-459e-a440-482b13e001a3)

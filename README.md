@@ -1,5 +1,6 @@
 # openlane_rtltogds
 ## vlsi flow using opensource tool
+## DAY 1 ##
 TOOLS USED: 
   1. RTL + synthesis: yosys, abc
   2. STA : opensta
@@ -25,3 +26,6 @@ run_synthesis
 ### flop ratio ###
 no of dff/ no of cells= 1613/18036= 0.08943
 ![VirtualBox_vsdworkshop_13_04_2025_17_56_34](https://github.com/user-attachments/assets/554e4f79-e2e5-459e-a440-482b13e001a3)
+output file: picorv32a_synthesis.v
+
+## DAY 2 ##

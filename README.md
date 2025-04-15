@@ -35,9 +35,11 @@ output file: picorv32a_synthesis.v
 ## DAY 2 ##
 
 ![RUN_FLLORPLAN OUTPUT](https://github.com/user-attachments/assets/e99ab75d-74c0-4bdd-89df-c44fb6abcf8d)
-``` run_floorplan ```
-output file: picorv32a.floorplan.def
-in the def file " picorv32a.floorplan.def" is located in 
+> _Floorplan start_
+
+``` run_floorplan ```\
+output file: picorv32a.floorplan.def\
+in the def file " picorv32a.floorplan.def" is located in\
 /Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/13-04_14-17/results/floorplan
 ### calculation of die area ###
 unit distance : height x width : 660685 671405
@@ -47,5 +49,6 @@ _in micron : 660685/1000 x 671405/1000 = 660.685x671.405= 443587.212 micron_
 
 ### magic layout open ###
 ``` magic -T Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130a.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def& ```
+![MAGIC OPENED](https://github.com/user-attachments/assets/4eb06512-eaeb-4f1d-ab50-a56b1e86f902)
 
 

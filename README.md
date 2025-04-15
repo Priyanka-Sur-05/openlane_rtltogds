@@ -36,5 +36,6 @@ output file: picorv32a.floorplan.def
 in the def file " picorv32a.floorplan.def" is located in 
 /Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/13-04_14-17/results/floorplan
 ### calculation of die area ###
-
+unit distance : height x width : 660685 671405
+in micron : 660685/1000 x 671405/1000 = 660.685x671.405= 443587.212 micron
 ![die area](https://github.com/user-attachments/assets/f63e5570-a15f-447c-ad74-840bf8c797cc)

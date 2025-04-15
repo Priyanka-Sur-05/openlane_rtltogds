@@ -31,3 +31,8 @@ output file: picorv32a_synthesis.v
 ## DAY 2 ##
 
 ![RUN_FLLORPLAN OUTPUT](https://github.com/user-attachments/assets/e99ab75d-74c0-4bdd-89df-c44fb6abcf8d)
+``` run_floorplan ```
+output file: picorv32a.floorplan.def
+### calculation of die area ###
+in the def file " picorv32a.floorplan.def" is located in 
+/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/13-04_14-17/results/floorplan

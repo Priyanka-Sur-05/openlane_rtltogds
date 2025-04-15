@@ -50,5 +50,10 @@ _in micron : 660685/1000 x 671405/1000 = 660.685x671.405= 443587.212 micron_
 ### magic layout open ###
 ``` magic -T Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130a.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def& ```
 ![MAGIC OPENED](https://github.com/user-attachments/assets/4eb06512-eaeb-4f1d-ab50-a56b1e86f902)
+# SUMMARY UPTO THIS TIME #
+### Change directory to openlane flow directory
+``` cd Desktop/work/tools/openlane_working_dir/openlane ```
 
-
+### alias docker='docker run -it -v $(pwd):/openLANE_flow -v $PDK_ROOT:$PDK_ROOT -e PDK_ROOT=$PDK_ROOT -u $(id -u $USER):$(id -g $USER) efabless/openlane:v0.21'
+### Since we have aliased the long command to 'docker' we can invoke the OpenLANE flow docker sub-system by just running this command
+``` docker ```
